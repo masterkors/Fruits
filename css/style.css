@@ -1,0 +1,312 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    font-weight: 800;
+    line-height: 1.8em;
+    color: #666;
+}
+
+body > footer {
+    text-align: center;
+    color: #19ce96;
+    letter-spacing: 5px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4,
+.pimg5,
+.pimg6,
+.pimg7,
+.pimg8,
+.pimg9,
+.pimg10,
+.pimg11,
+.pimg12,
+.pimg13,
+.pimg14,
+.pimg15,
+.pimg16,
+.pimg17,
+.pimg18,
+.pimg19,
+.pimg20,
+.pimg21 {
+    position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1 {
+    background-image: url('../img/fruits1.jpg');
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url('../img/grapefruit.jpg');
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url('../img/pineapple.jpg');
+    min-height: 400px;
+}
+
+.pimg4 {
+    background-image: url('../img/avocado.jpg');
+    min-height: 400px;
+}
+
+.pimg5 {
+    background-image: url('../img/blackberries.jpg');
+    min-height: 400px;
+}
+
+.pimg6 {
+    background-image: url('../img/apples.jpg');
+    min-height: 400px;
+}
+
+.pimg7 {
+    background-image: url('../img/pomegranate.jpg');
+    min-height: 400px;
+}
+
+.pimg8 {
+    background-image: url('../img/mango.jpg');
+    min-height: 400px;
+}
+
+.pimg9 {
+    background-image: url('../img/strawberries.jpg');
+    min-height: 400px;
+}
+
+.pimg10 {
+    background-image: url('../img/cranberries.jpg');
+    min-height: 400px;
+}
+
+.pimg11 {
+    background-image: url('../img/lemons.jpg');
+    min-height: 400px;
+}
+
+.pimg12 {
+    background-image: url('../img/durian.jpg');
+    min-height: 400px;
+}
+
+.pimg13 {
+    background-image: url('../img/watermelon.jpg');
+    min-height: 400px;
+}
+
+.pimg14 {
+    background-image: url('../img/olives.jpg');
+    min-height: 400px;
+}
+
+.pimg15 {
+    background-image: url('../img/blackberries.jpg');
+    min-height: 400px;
+}
+
+.pimg16 {
+    background-image: url('../img/orange.jpg');
+    min-height: 400px;
+}
+
+.pimg17 {
+    background-image: url('../img/bananas.jpg');
+    min-height: 400px;
+}
+
+.pimg18 {
+    background-image: url('../img/grapes.jpg');
+    min-height: 400px;
+}
+
+.pimg19 {
+    background-image: url('../img/guava.jpg');
+    min-height: 400px;
+}
+
+.pimg20 {
+    background-image: url('../img/papaya.jpg');
+    min-height: 400px;
+}
+
+.pimg21 {
+    background-image: url('../img/cherries.jpg');
+    min-height: 400px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #0d100b;
+}
+
+.section-dark {
+    background-color: rgb(92, 106, 162);
+    color: #ddd;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.border {
+    background-color: #bf284b;
+    color: #241f1f;
+    padding: 20px;
+}
+
+.ptext .border.trans {
+    background-color: transparent;
+}
+
+@media(max-width:568px) {
+    .pimg1,
+    .pimg2,
+    .pimg3,
+    .pimg4,
+    .pimg5,
+    .pimg6,
+    .pimg7,
+    .pimg8,
+    .pimg9,
+    .pimg10,
+    .pimg11,
+    .pimg12,
+    .pimg13,
+    .pimg14,
+    .pimg15,
+    .pimg16,
+    .pimg17,
+    .pimg18,
+    .pimg19,
+    .pimg20,
+    .pimg21 {
+        background-attachment: scroll;
+    }
+}
+
+input,
+textarea {
+
+    padding: 20px;
+    margin: 15px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #ddd;
+    width: 90%;
+    font-family: 'Niconne', cursive;
+}
+
+input,
+textarea:focus {
+    outline: none;
+}
+
+button {
+    background-color: #bf284b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    opacity: 0.9;
+    font-size: 27px;
+    border-radius: 10px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    transition: all 0.8s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.7;
+}
+
+.container {
+    padding: 16px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #666;
+    padding-top: 50px;
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social img:hover {
+    opacity: 0.7;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: #4593d8;
+}
